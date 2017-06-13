@@ -1,10 +1,56 @@
 -
+    name: access
+    cve:
+        - CVE-2017-6399
+        - CVE-2017-6406
+        - CVE-2017-6400
+    comment: |
+        CVE applies only to Veritas NetBackup and NetBackup Appliance
+-
+    name: audiofile
+    version: '0.3.6'
+    cve:
+        - CVE-2017-6827
+        - CVE-2017-6834
+        - CVE-2017-6828
+        - CVE-2017-6833
+        - CVE-2017-6832
+        - CVE-2017-6837
+        - CVE-2017-6829
+        - CVE-2017-6835
+        - CVE-2017-6830
+        - CVE-2017-6836
+        - CVE-2017-6838
+        - CVE-2017-6839
+        - CVE-2017-6831
+    status: 'inprogress'
+    comment: |
+        Addressed via #26909
+-
+    name: bundler
+    version: '1.10.5'
+    cve:
+        - CVE-2016-7954
+    status: 'inprogress'
+    comment: |
+        Addressed via #26910
+-
+    name: busybox
+    cve:
+        - CVE-2016-2148
+        - CVE-2016-2147
+        - CVE-2016-6301
+    status: 'inprogress'
+    comment: |
+        Addressed via #26962
+-
     name: busybox
     cve:
         - CVE-2011-2716
         - CVE-2013-1813
+        - CVE-2014-9645
     comment: |
-        CVE only apply on busybox < 1.20.0 (CVE-2011-2716) or 1.21.0 (CVE-2013-1813)
+        CVE only apply on busybox < 1.20.0 (CVE-2011-2716) or 1.21.0 (CVE-2013-1813) or  < 1.23.2 (CVE-2014-9645)
 -
     name: bzip2
     version: '1.0.6'
@@ -41,7 +87,7 @@
     status: 'inprogress'
 -
     name: cyrus-sasl
-    version: '1.26'
+    version: '2.1.26'
     cve:
         - CVE-2013-4122
     comment: |
@@ -123,6 +169,14 @@
         The CVE applies to  com.hook.android application 0.9.3 for
         Android which is not used on our end.
 -
+    name: imagemagick
+    version: '6.9.1'
+    cve:
+        - CVE-2015-8900
+    comment: |
+        Addressed via Re #27180
+    status: 'inprogress'
+-
     name: ip
     cve:
         - CVE-2013-6034
@@ -184,6 +238,14 @@
     comment: |
         Very unlikely to be an issue on our platform.
 -
+    name: libgcrypt
+    version: '1.6.4'
+    cve:
+        - CVE-2016-6313
+    status: 'inprogress'
+    comment: |
+        Addressed via Re #27181
+-
     name: libidn
     version: '1.32'
     cve:
@@ -211,6 +273,14 @@
     comment: |
         Addressed via #23926
 -
+    name: libunwind
+    version: '1.1'
+    cve:
+        - CVE-2015-3239
+    status: 'inprogress'
+    comment: |
+        Addressed via #26971
+-
     name: libvirt
     version: '1.2.19'
     cve:
@@ -229,7 +299,23 @@
         - CVE-2016-3627
     status: 'inprogress'
     comment: |
-        Addressed via 23929
+        Addressed via #23929
+-
+    name: libxslt
+    version: '1.1.28'
+    cve:
+        - CVE-2015-7995
+    comment: |
+        Patch already backported to Nix expression
+-
+    name: libxslt
+    version: '1.1.28'
+    cve:
+        - CVE-2016-1683
+        - CVE-2016-1684
+    status: 'inprogress'
+    comment: |
+        Addressed via #26902
 -
     name: libyaml
     version: '0.1.6'
@@ -280,7 +366,15 @@
         - CVE-2016-5444
     status: 'inprogress'
     comment: |
-        Address via #23933
+        Addressed via #23933
+-
+    name: mariadb
+    version: '10.0.29'
+    cve:
+        - CVE-2017-3302
+    status: 'inprogress'
+    comment: |
+        Addressed with #26901
 -
     name: mysql
     version: '5.5.45'
@@ -319,12 +413,40 @@
     comment: |
         Addressed via #24060
 -
+    name: openexr
+    version: '2.2.0'
+    cve:
+        - CVE-2017-9113
+        - CVE-2017-9110
+        - CVE-2017-9110
+        - CVE-2017-9112
+        - CVE-2017-9116
+        - CVE-2017-9116
+        - CVE-2017-9112
+        - CVE-2017-9111
+        - CVE-2017-9111
+        - CVE-2017-9113
+        - CVE-2017-9114
+        - CVE-2017-9114
+    status: 'inprogress'
+    comment: |
+        Addressed via Re #27184
+-
     name: openldap
     version: '2.4.42'
     cve:
-        -  CVE-2015-6908
+        - CVE-2015-6908
     comment: |
         Patch backported to running version
+-
+    name: openssl
+    version: '1.0.2j'
+    status: 'inprogress'
+    cve:
+        - CVE-2017-3731
+        - CVE-2017-3731
+    comment: |
+        Addressed with #27036
 -
     name: pcre
     version: '8.37'
@@ -386,6 +508,42 @@
     comment: |
         Addressed with #24077
 -
+    name: postgresql
+    version: '9.4.6'
+    cve:
+        - CVE-2016-5424
+        - CVE-2016-5423
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #27058
+-
+    name: postgresql
+    version: '9.4.12'
+    cve:
+        - CVE-2017-7486
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #27463
+-
+    name: postgresql
+    version: '9.5.1'
+    cve:
+        - CVE-2016-2193
+    status: 'inprogress'
+    comment: |
+        Addressed with #27035
+-
+    name: postgresql
+    version: '9.6.1'
+    cve:
+        - CVE-2017-7484
+        - CVE-2017-7485
+        - CVE-2017-7484
+        - CVE-2017-7485
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #27186
+-
     name: python
     version: '2.7.11'
     cve:
@@ -398,10 +556,27 @@
     name: redis
     version: '3.0.2'
     cve:
-        -  CVE-2015-8080
+        - CVE-2015-8080
     status: 'inprogress'
     comment: |
         Addressed with #24084
+-
+    name: rubygems
+    version: '2.4.1'
+    cve:
+        - CVE-2015-3900
+        - CVE-2015-4020
+    status: 'inprogress'
+    comment: |
+        Addressed with #26900
+-
+    name: shadow
+    version: '4.2.1'
+    cve:
+        - CVE-2016-6252
+    status: 'inprogress'
+    comment: |
+        Addressed via #26970
 -
     name: spice
     version: '0.12.5'
@@ -413,19 +588,41 @@
         Addressed with #24095
 -
     name: subversion
-    version: '0.18.5'
+    version: '1.8.15'
     cve:
         - CVE-2016-2167
         - CVE-2016-2168
     comment: |
         We don't use Subversion in this way.
-
 -
     name: unzip
     version: '6.0'
     cve:
+        - CVE-2016-9844
+    status: 'inprogress'
+    comment: |
+        Addressed via #26968
+-
+    name: unzip
+    version: '6.0'
+    cve:
+        - CVE-2014-8139
+        - CVE-2014-8140
+        - CVE-2014-8141
         - CVE-2014-9636
+        - CVE-2015-7696
         - CVE-2015-7697
     comment: |
         Patches applied without upstream minor release
+-
+    name: zlib
+    version: '1.2.8'
+    cve:
+        - CVE-2016-9840
+        - CVE-2016-9842
+        - CVE-2016-9840
+        - CVE-2016-9842
+    status: 'inprogress'
+    comment: |
+        Addressed via Re #27182
 
