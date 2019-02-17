@@ -1,0 +1,492 @@
+["access"]
+cve = [
+    "CVE-2017-6399",
+    "CVE-2017-6406",
+    "CVE-2017-6400"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/28741/"
+comment = "CVE applies only to Veritas NetBackup and NetBackup Appliance"
+
+["binutils-2.30"]
+cve = [
+    "CVE-2018-10372",
+    "CVE-2018-10373",
+    "CVE-2018-10534",
+    "CVE-2018-10535",
+    "CVE-2018-12641",
+    "CVE-2018-12697",
+    "CVE-2018-12698",
+    "CVE-2018-12699",
+    "CVE-2018-12700",
+    "CVE-2018-12934",
+    "CVE-2018-13033",
+    "CVE-2018-6543",
+    "CVE-2018-6759",
+    "CVE-2018-6872",
+    "CVE-2018-7208",
+    "CVE-2018-7568",
+    "CVE-2018-7569",
+    "CVE-2018-7570",
+    "CVE-2018-7642",
+    "CVE-2018-7643"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/107621/"
+
+["bundler"]
+cve = ["CVE-2016-7954"]
+comment = "This is a usability issue that won't be fixed in bundler 1. The bundler developers declared this fixed for 1 by providing a blogpost: http://bundler.io/blog/2014/08/14/bundler-may-install-gems-from-a-different-source-than-expected-cve-2013-0334.html"
+
+["busybox-1.26.2"]
+cve = [
+    "CVE-2015-9261",
+    "CVE-2018-20679"]
+issue_url = "https://fb.flyingcircus.io/f/cases/106543/"
+
+["coreutils-8.29"]
+cve = ["CVE-2017-18018"]
+issue_url = "https://fb.flyingcircus.io/f/cases/104708/"
+
+["cups-2.0.4"]
+cve= ["CVE-2017-18190",
+      "CVE-2017-18248"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/107622/"
+
+["curl-7.59.0"]
+cve = [
+    "CVE-2018-0500",
+    "CVE-2018-1000300",
+    "CVE-2018-1000301",
+    "CVE-2018-16839",
+    "CVE-2018-16840",
+    "CVE-2018-16842",
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108130/"
+
+["curl-7.61.1"]
+cve =  [
+    "CVE-2018-16839",
+    "CVE-2018-16840",
+    "CVE-2018-16842"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108128/"
+
+["cyrus_sasl-2.1.26"]
+cve = ["CVE-2013-4122"]
+issue_url = "https://fb.flyingcircus.io/f/cases/26967/"
+comment = "rejected"
+
+["dovecot-2.1.17"]
+cve = [
+    "CVE-2017-15132",
+    "CVE-2017-15130"]
+issue_url = "https://fb.flyingcircus.io/f/cases/102039/"
+
+["elasticsearch-5.6.9"]
+cve = ["CVE-2018-3831"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108324/"
+
+["flac-1.3.2"]
+cve = ["CVE-2017-6888"]
+issue_url = "https://fb.flyingcircus.io/f/cases/103148/"
+
+["flex-2.6.4"]
+cve = ["CVE-2019-6293"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108292/"
+
+["gettext-0.19.8"]
+cve = ["CVE-2018-18751"]
+issue_url = "https://fb.flyingcircus.io/f/cases/107624/"
+
+["git"]
+cve = [
+    "CVE-2018-11233",
+    "CVE-2018-11235"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/101837/"
+
+["glibc-2.21"]
+cve = [
+    "CVE-2014-7817",
+    "CVE-2014-8121",
+    "CVE-2015-1781",
+    "CVE-2015-7547",
+    "CVE-2015-8983",
+    "CVE-2015-8984",
+    "CVE-2016-1234",
+    "CVE-2016-3075",
+    "CVE-2016-3706",
+    "CVE-2017-16997",
+    "CVE-2017-18269"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/101913/"
+comment = "CVE-2014-7817 fixed in 2.21 but CVE not updated"
+
+["glibc-2.27"]
+cve = [
+     "CVE-2018-11236",
+     "CVE-2018-11237"
+]
+issue_url ="https://fb.flyingcircus.io/f/cases/107626/"
+
+["graylog-2.4.5"]
+cve  = ["CVE-2018-14380"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108321/"
+
+["graphviz-2.40.1"]
+cve = ["CVE-2018-10196"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108326/"
+
+["haproxy-1.5.14"]
+cve = ["CVE-2018-10184"]
+issue_url = "https://fb.flyingcircus.io/f/cases/103210/"
+
+["jasper-2.0.13"]
+cve = ["CVE-2017-14229", "CVE-2017-14132"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101993/"
+
+["jasper-2.0.14"]
+cve = [
+    "CVE-2018-18873",
+    "CVE-2018-19139",
+    "CVE-2018-19539",
+    "CVE-2018-19540",
+    "CVE-2018-19541",
+    "CVE-2018-19542",
+    "CVE-2018-19543",
+    "CVE-2018-20570",
+    "CVE-2018-20584",
+    "CVE-2018-20622"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108328/"
+
+["kibana-4.6.5"]
+cve = ["CVE-2018-3819"]
+issue_url = "https://fb.flyingcircus.io/f/cases/103301/"
+
+["libarchive-3.3.2"]
+cve = [ "CVE-2017-14501",
+        "CVE-2017-14503"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/100429/"
+
+["libgcrypt"]
+cve = [ "CVE-2018-0495",
+        "CVE-2017-7526"]
+issue_url = "https://fb.flyingcircus.io/f/cases/105033/"
+
+["libice-1.0.9"]
+cve = [ "CVE-2017-2626" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/106544/"
+
+["libsndfile-1.0.28"]
+cve = [
+        "CVE-2017-8361",
+        "CVE-2017-8362",
+        "CVE-2017-8363",
+        "CVE-2017-8365",
+        "CVE-2017-6892",
+        "CVE-2017-12562",
+        "CVE-2017-14246",
+        "CVE-2017-14245",
+        "CVE-2017-14634",
+        "CVE-2018-13139",
+        "CVE-2018-13419",
+        "CVE-2018-19432",
+        "CVE-2018-19661",
+        "CVE-2018-19662",
+        "CVE-2018-19758"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/101041/"
+
+["libtasn1-4.13"]
+cve = ["CVE-2018-1000654"]
+issue_url = "https://fb.flyingcircus.io/f/cases/107629/"
+
+["libtiff-4.0.9"]
+cve = [
+    "CVE-2017-17942",
+    "CVE-2018-12900",
+    "CVE-2018-16335",
+    "CVE-2018-17795",
+    "CVE-2017-11613",
+    "CVE-2017-17095",
+    "CVE-2017-18013",
+    "CVE-2017-9935",
+    "CVE-2018-10126",
+    "CVE-2018-10963",
+    "CVE-2018-17100",
+    "CVE-2018-17101",
+    "CVE-2018-5784",
+    "CVE-2018-7456",
+    "CVE-2018-8905"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/104752/"
+
+["libtirpc-1.0.2"]
+cve = ["CVE-2018-14621"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108294/"
+
+["libvorbis-1.3.6"]
+cve = [
+    "CVE-2018-10393",
+    "CVE-2018-10392"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/101912/"
+
+["libx11-1.6.3"]
+cve = [ "CVE-2016-7942", "CVE-2016-7943"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101153/"
+
+["libxcursor-1.1.14"]
+cve = [
+    "CVE-2017-16612",
+    "CVE-2015-9262" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/101148/"
+
+["libxpm-3.5.11"]
+cve = [ "CVE-2016-10164"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101150/"
+
+["libxrandr-1.5.0"]
+cve = [ "CVE-2016-7947",
+        "CVE-2016-7948"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101149/"
+
+["libXrender-0.9.9"]
+cve = [
+    "CVE-2016-7950",
+    "CVE-2016-7949"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101292/"
+
+["libXtst-1.2.2"]
+cve = [
+    "CVE-2016-7951",
+    "CVE-2016-7952"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101997/"
+
+["libXv-1.0.10"]
+cve = [ "CVE-2016-5407" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/101279/"
+
+["libXvMC-1.0.9"]
+cve = [ "CVE-2016-7953" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/101280/"
+
+["linux-pam-1.3.0"]
+cve = [ "CVE-2018-17953" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/108295/"
+
+["mariadb-10.0.32"]
+cve = ["CVE-2017-15365"]
+issue_url = "https://fb.flyingcircus.io/f/cases/104855/"
+
+["mercurial-4.5"]
+cve = ["CVE-2018-1000132"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108296/"
+
+["mongodb-3.2.12"]
+cve = ["CVE-2016-6494"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101998/"
+
+["mysql-5.5.59"]
+cve = [
+    "CVE-2018-2781",
+    "CVE-2018-2818",
+    "CVE-2018-2817",
+    "CVE-2018-2819",
+    "CVE-2018-2755",
+    "CVE-2018-2773",
+    "CVE-2018-2761",
+    "CVE-2018-2813",
+    "CVE-2018-2771"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/102040/"
+
+["ncurses"]
+cve = ["CVE-2018-10754"]
+issue_url = "https://fb.flyingcircus.io/f/cases/107423/"
+
+["ncurses-6.1"]
+cve = ["CVE-2018-19217",
+       "CVE-2018-19211"]
+issue_url = https://fb.flyingcircus.io/f/cases/108345/
+
+["net-snmp"]
+cve = ["CVE-2014-2285"]
+comment = "5.7.3 isn't actually affected, but pre-release versions where."
+
+["net-snmp-5.7.3"]
+cve = [
+    "CVE-2018-18065",
+    "CVE-2018-18066"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108297/"
+
+["nghttp2"]
+cve = ["CVE-2018-1000168"]
+issue_url = "https://fb.flyingcircus.io/f/cases/103149/"
+
+["openjpeg-2.3.0"]
+cve = [
+    "CVE-2017-17479",
+    "CVE-2017-17480",
+    "CVE-2018-5727",
+    "CVE-2018-5785",
+    "CVE-2018-6616",
+    "CVE-2018-7648"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/101999/"
+
+["openldap-2.4.45"]
+cve = [
+    "CVE-2017-17740",
+    "CVE-2017-14159"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/101152/"
+
+["openssl-1.0.2o"]
+cve = [
+    "CVE-2018-0732",
+    "CVE-2018-0734",
+    "CVE-2018-0737"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108299/"
+
+["openssl-1.0.2p"]
+cve = [
+    "CVE-2018-0734"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108300/"
+
+["openvpn-2.4.3"]
+cve = [ "CVE-2017-12166" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/102038/"
+
+["patch-2.7.6"]
+cve = [
+    "CVE-2018-1000156",
+    "CVE-2018-6952",
+    "CVE-2018-6951"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/104710/"
+
+["postgres"]
+cve = ["CVE-2018-1058"]
+issue_url = "https://fb.flyingcircus.io/f/cases/104711/"
+
+["procps-3.3.15"]
+cve = ["CVE-2018-1121"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108306/"
+
+["protobuf-2.6.1"]
+cve = [ "CVE-2015-5237" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/101115/"
+
+["python-2.7.14"]
+cve = [ "CVE-2018-1060",
+        "CVE-2018-1061",
+        "CVE-2018-14647",
+        "CVE-2018-20406"]
+issue_url = "https://fb.flyingcircus.io/f/cases/105034/"
+
+["python-2.7.15"]
+cve = [ "CVE-2018-14647",
+        "CVE-2018-20406"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108307/"
+
+["python"]
+cve = "CVE-2018-1000030"
+comment = "classified non-critical by Python devs"
+
+["redis-3.0.2"]
+cve = [ "CVE-2018-11218",
+        "CVE-2018-11219",
+        "CVE-2018-12453",
+        "CVE-2016-10517",
+        "CVE-2018-12326"]
+issue_url = "https://fb.flyingcircus.io/f/cases/105035/"
+
+["rsyslog-8.10.0"]
+cve = ["CVE-2018-16881"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108319/"
+
+["ruby-2.4.4"]
+cve = [
+    "CVE-2018-16395",
+    "CVE-2018-16396"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108305/"
+
+["shadow-4.5"]
+cve = [ "CVE-2018-7169" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/101090/"
+
+["spice-0.12.5"]
+cve = [ "CVE-2017-7506" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/101098/"
+
+["systemd-237"]
+cve = [ "CVE-2018-6954" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/105142/"
+
+["systemd-239"]
+cve = [
+    "CVE-2018-15686",
+    "CVE-2018-15687",
+    "CVE-2018-15688"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/108304/"
+
+["unzip"]
+cve = [
+    "CVE-2014-8139",
+    "CVE-2014-8140",
+    "CVE-2014-8141",
+    "CVE-2014-9636",
+    "CVE-2015-7696",
+    "CVE-2015-7697"]
+comment = "Patches applied without upstream minor release"
+
+["unzip-6.0"]
+cve = [
+    "CVE-2016-9844",
+    "CVE-2018-18384"]
+issue_url = "https://fb.flyingcircus.io/f/cases/26968/"
+
+["util-linux-2.31"]
+cve = [ "CVE-2017-2616" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/106545/"
+
+["uw-imap-2007f"]
+cve = ["CVE-2018-19518"]
+issue_url = "https://fb.flyingcircus.io/f/cases/108301/"
+
+["vim-7.4.827"]
+cve = [ "CVE-2017-17087"]
+issue_url = "https://fb.flyingcircus.io/f/cases/101782/"
+
+["w3m-0.5.3"]
+cve= [
+   "CVE-2018-6198",
+   "CVE-2018-6196",
+   "CVE-2018-6197"]
+issue_url = "https://fb.flyingcircus.io/f/cases/100294/"
+
+["zip-3.0"]
+cve = [ "CVE-2018-13410" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/105205/"
+comment = "rejected, cve is disputed anyway, no patches available"
+
+["zlib-1.2.8"]
+cve = [ "CVE-2016-9840", "CVE-2016-9842", "CVE-2016-9840", "CVE-2016-9842" ]
+issue_url = "https://fb.flyingcircus.io/f/cases/27182/"
+
+["zziplib-0.13.68"]
+cve = [
+    "CVE-2018-6869",
+    "CVE-2018-7725",
+    "CVE-2018-7726",
+    "CVE-2018-7727"
+]
+issue_url = "https://fb.flyingcircus.io/f/cases/102000/"

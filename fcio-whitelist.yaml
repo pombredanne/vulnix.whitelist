@@ -1,49 +1,4 @@
 -
-    name: access
-    cve:
-        - CVE-2017-6399
-        - CVE-2017-6406
-        - CVE-2017-6400
-    comment: |
-        CVE applies only to Veritas NetBackup and NetBackup Appliance
--
-    name: audiofile
-    version: '0.3.6'
-    cve:
-        - CVE-2017-6827
-        - CVE-2017-6834
-        - CVE-2017-6828
-        - CVE-2017-6833
-        - CVE-2017-6832
-        - CVE-2017-6837
-        - CVE-2017-6829
-        - CVE-2017-6835
-        - CVE-2017-6830
-        - CVE-2017-6836
-        - CVE-2017-6838
-        - CVE-2017-6839
-        - CVE-2017-6831
-    status: 'inprogress'
-    comment: |
-        Addressed via #26909
--
-    name: bundler
-    version: '1.10.5'
-    cve:
-        - CVE-2016-7954
-    status: 'inprogress'
-    comment: |
-        Addressed via #26910
--
-    name: busybox
-    cve:
-        - CVE-2016-2148
-        - CVE-2016-2147
-        - CVE-2016-6301
-    status: 'inprogress'
-    comment: |
-        Addressed via #26962
--
     name: busybox
     cve:
         - CVE-2011-2716
@@ -59,18 +14,6 @@
     comment: |
         CVE is regarded as of having low impact by Redhat https://bugzilla.redhat.com/show_bug.cgi?id=1319648
 -
-    name: chrony
-    version: '2.1.1'
-    cve:
-        - CVE-2016-1567
-    status: 'inprogress'
--
-    name: collectd
-    version: '5.4.2'
-    cve:
-        - CVE-2016-6254
-    status: 'inprogress'
--
     name: cpio
     version: '2.11'
     cve:
@@ -80,12 +23,6 @@
     comment: |
         Patches backported from 2.12 in nix packages
 -
-    name: curl
-    version: '7.47'
-    cve:
-        - CVE-2016-3739
-    status: 'inprogress'
--
     name: cyrus-sasl
     version: '2.1.26'
     cve:
@@ -94,13 +31,6 @@
         Linked Patch is part of commulativ patchset applied via Nix
         expression.
 -
-    name: dnsmasq
-    version: '1.75'
-    cve:
-        - CVE-2015-8899
-
-    status: 'inprogress'
--
     name: dosfstools
     version: '3.0.28'
     cve:
@@ -108,19 +38,6 @@
         - CVE-2016-4804
     comment: |
         We usually don't deal with FAT filesystemes. Re #23867
--
-    name: expat
-    version: '2.1.0'
-    cve:
-        - CVE-2015-1283
-    comment: |
-        Patch for CVE applied
--
-    name: expat
-    version: '2.1.0'
-    cve:
-        - CVE-2013-0340
-    status: 'inprogress'
 -
     name: firmware
     cve:
@@ -131,8 +48,17 @@
         - CVE-2013-2645
         - CVE-2014-8656
         - CVE-2014-8653
+        - CVE-2001-0888
     comment: |
         Not applying to our systems
+-
+    name: freetype
+    version: "2.7.1"
+    cve:
+        - CVE-2017-8105
+        - CVE-2017-8287
+    comment: |
+        Patched in derivation.
 -
     name: gcc
     version: '4.9.3'
@@ -142,25 +68,103 @@
     comment: |
         Addressed via #23873
 -
-    name: glibc
-    version: '2.21'
+    name: ghostscript
+    version: '9.20'
+    status: 'inprogress'
     cve:
-        - CVE-2014-7817
+        - CVE-2017-5951
+    comment: |
+        Addressed with 29164
+-
+    name: git
+    version: '2.14.1'
+    cve:
+        - CVE-2017-14867
     status: 'inprogress'
     comment: |
-        Addressed via #23875
+        Addressed with #28729
+-
+    name: git
+    version: '2.14.2'
+    cve:
+        - CVE-2017-15298
+    status: 'inprogress'
+    comment: |
+        Addressed with #29024
 -
     name: glibc
-    version: '2.21'
+    version: '2.25'
     cve:
-        - CVE-2014-8121
-        - CVE-2015-1781
-        - CVE-2015-7547
-        - CVE-2016-1234
-        - CVE-2016-3075
-        - CVE-2016-3706
+        - CVE-2016-10228
+        - CVE-2017-8804
+    status: 'inprogress'
     comment: |
-        Patches applied via Nix expression
+        Addressed via #27733
+-
+    name: go
+    version: '1.4.2'
+    cve:
+        - CVE-2015-5739
+        - CVE-2015-5740
+    status: 'inprogress'
+    comment: |
+        Addressed with #29035
+-
+    name: graphicsmagick
+    version: '1.3.26'
+    status: 'inprogress'
+    cve:
+        - CVE-2017-11102
+        - CVE-2017-11139
+        - CVE-2017-11140
+        - CVE-2017-11403
+        - CVE-2017-11636
+        - CVE-2017-11637
+        - CVE-2017-11638
+        - CVE-2017-11641
+        - CVE-2017-11642
+        - CVE-2017-11643
+        - CVE-2017-11722
+        - CVE-2017-12935
+        - CVE-2017-12936
+        - CVE-2017-12937
+        - CVE-2017-13063
+        - CVE-2017-13064
+        - CVE-2017-13065
+        - CVE-2017-13066
+        - CVE-2017-13147
+        - CVE-2017-13648
+        - CVE-2017-13736
+        - CVE-2017-13737
+        - CVE-2017-13775
+        - CVE-2017-13776
+        - CVE-2017-13777
+        - CVE-2017-14042
+        - CVE-2017-14103
+        - CVE-2017-14165
+        - CVE-2017-14314
+        - CVE-2017-14504
+        - CVE-2017-14649
+        - CVE-2017-14733
+        - CVE-2017-14994
+        - CVE-2017-14997
+        - CVE-2017-15238
+        - CVE-2017-15277
+        - CVE-2017-15930
+        - CVE-2017-16352
+        - CVE-2017-16353
+        - CVE-2017-16545
+        - CVE-2017-16547
+    comment: |
+        Addressed via #29165
+-
+    name: gstreamer
+    version: '0.10.36'
+    cve:
+        - CVE-2016-9447
+    status: 'inprogress'
+    comment: |
+        Addressed via #28030
 -
     name: hook
     cve:
@@ -176,6 +180,29 @@
     comment: |
         Addressed via Re #27180
     status: 'inprogress'
+-
+    name: imagemagick
+    version: '6.9.8-10'
+    cve:
+        - CVE-2017-11528
+        - CVE-2017-11527
+        - CVE-2017-11529
+        - CVE-2017-11524
+        - CVE-2017-11530
+        - CVE-2017-11526
+    status: 'inprogress'
+    comment: |
+        Addressed via Re #28031
+-
+    name: imagemagick
+    version: '6.9.9-3'
+    cve:
+        - CVE-2017-13141
+        - CVE-2017-11724
+        - CVE-2016-7539
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #28605
 -
     name: ip
     cve:
@@ -207,12 +234,24 @@
     cve:
         - CVE-2011-4516
         - CVE-2011-4517
+        - CVE-2015-5221
         - CVE-2016-1577
         - CVE-2016-1867
         - CVE-2016-2089
         - CVE-2016-2116
+    status: 'inprogress'
     comment: |
         Addressed via #23878
+-
+    name: jbig2dec
+    version: '0.13'
+    cve:
+        - CVE-2017-7976
+        - CVE-2017-7975
+        - CVE-2017-7885
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #29167
 -
     name: libarchive
     version: '3.1.2'
@@ -220,7 +259,7 @@
         - CVE-2013-0211
         - CVE-2015-1197
     comment: |
-        Patched inside Nix derication.
+        Patched inside Nix derivation.
 
 -
     name: libarchive
@@ -230,6 +269,14 @@
     status: 'inprogress'
     comment: |
         Addressed via #23890
+-
+    name: libarchive
+    version: '3.3.2'
+    cve:
+        - CVE-2017-14166
+        - CVE-2017-14502
+    comment: |
+        Addressed via #28596, fixed through derivation.
 -
     name: libgcrypt
     version: '1.6.4'
@@ -257,37 +304,20 @@
     comment: |
         Addressed via #23893
 -
-    name: libsndfile
-    version: '1.0.25'
+    name: libjpeg-turbo
+    version: '1.5.2'
     cve:
-        - CVE-2015-7805
+        - CVE-2017-15232
     status: 'inprogress'
     comment: |
-        Addressed via #23894
--
-    name: libtasn1
-    version: '4.7'
-    cve:
-        - CVE-2016-4008
-    status: 'inprogress'
-    comment: |
-        Addressed via #23926
+        Addressed via #29166
 -
     name: libunwind
     version: '1.1'
     cve:
         - CVE-2015-3239
-    status: 'inprogress'
     comment: |
-        Addressed via #26971
--
-    name: libvirt
-    version: '1.2.19'
-    cve:
-        - CVE-2015-5247
-    status: 'inprogress'
-    comment: |
-        Addressed via #23927
+        Already fixed through upstream patch.
 -
     name: libxml2
     version: '2.9.3'
@@ -297,25 +327,22 @@
         - CVE-2016-4448
         - CVE-2016-3705
         - CVE-2016-3627
+    comment: |
+        Addressed via #23929. Waiting for upstream fixes.
+-
+    name: libxml2
+    version: '2.9.4'
+    cve:
+        - CVE-2017-5969
+        - CVE-2017-8872
+        - CVE-2016-5131
+        - CVE-2017-9050
+        - CVE-2017-9048
+        - CVE-2017-9047
+        - CVE-2017-9049
     status: 'inprogress'
     comment: |
-        Addressed via #23929
--
-    name: libxslt
-    version: '1.1.28'
-    cve:
-        - CVE-2015-7995
-    comment: |
-        Patch already backported to Nix expression
--
-    name: libxslt
-    version: '1.1.28'
-    cve:
-        - CVE-2016-1683
-        - CVE-2016-1684
-    status: 'inprogress'
-    comment: |
-        Addressed via #26902
+        Addressed with Re #28608
 -
     name: libyaml
     version: '0.1.6'
@@ -330,6 +357,13 @@
         - CVE-2015-2331
     comment: |
         Patch backported to Nix expression
+-
+    name: lynx
+    version: '2.8.8'
+    cve:
+        - CVE-2010-2810
+    comment: |
+        Incorrect match. Already fixed in released version.
 -
     name: mariadb
     version: '10.0.22'
@@ -395,14 +429,6 @@
     comment: |
         Addressed via #24058
 -
-    name: net-snmp
-    version: '5.7.3'
-    cve:
-        - CVE-2014-2285
-    status: 'inprogress'
-    comment: |
-        Addressed via #24059
--
     name: nettle
     version: '3.1.1'
     cve:
@@ -416,21 +442,17 @@
     name: openexr
     version: '2.2.0'
     cve:
-        - CVE-2017-9113
         - CVE-2017-9110
-        - CVE-2017-9110
-        - CVE-2017-9112
-        - CVE-2017-9116
-        - CVE-2017-9116
-        - CVE-2017-9112
         - CVE-2017-9111
-        - CVE-2017-9111
+        - CVE-2017-9112
         - CVE-2017-9113
         - CVE-2017-9114
-        - CVE-2017-9114
-    status: 'inprogress'
+        - CVE-2017-9115
+        - CVE-2017-9116
+        - CVE-2017-12596
+        - CVE-2017-14988
     comment: |
-        Addressed via Re #27184
+        Addressed via Re #27184. Still waiting for upstream fixes.
 -
     name: openldap
     version: '2.4.42'
@@ -439,14 +461,25 @@
     comment: |
         Patch backported to running version
 -
-    name: openssl
-    version: '1.0.2j'
+    name: openldap
+    version: '2.4.45'
+    cve:
+        - CVE-2017-14159
+    status: 'inprogress'
+    comment: |
+        Addressed via Re #28611
+-
+    name: openvpn
+    version: '2.3.7'
     status: 'inprogress'
     cve:
-        - CVE-2017-3731
-        - CVE-2017-3731
+        - CVE-2017-7508
+        - CVE-2017-7512
+        - CVE-2017-7520
+        - CVE-2017-7521
+        - CVE-2017-7522
     comment: |
-        Addressed with #27036
+        Addressed via #27552
 -
     name: pcre
     version: '8.37'
@@ -464,85 +497,65 @@
     comment: |
         Addressed with #24063
 -
+    name: pcre
+    version: '8.40'
+    cve:
+        - CVE-2017-7244
+        - CVE-2017-7246
+        - CVE-2017-7245
+        - CVE-2017-7186
+    status: 'inprogress'
+    comment: |
+        Addressed with #27731
+-
+    name: pcre
+    version: '8.41'
+    cve:
+        - CVE-2017-11164
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #28884
+-
+    name: pcre2
+    version: '10.23'
+    cve:
+        - CVE-2017-8786
+        - CVE-2017-7186
+        - CVE-2017-8399
+    status: 'inprogress'
+    comment: |
+        Address with #28595
+-
+    name: pcre2
+    version: '10.30'
+    cve:
+        - CVE-2017-8399
+    status: 'inprogress'
+    comment: |
+        Address with #29027
+-
     name: perl
     version: '5.20.2'
     cve:
         - CVE-2016-1238
-    status: 'inprogress'
     comment: |
-        Addressed with #24076
+        No fix available. Upgrade within 5.20 later via NixOS update.
 -
-    name: php
-    version: '5.5.35'
+    name: perl
+    version: '5.22.2'
     cve:
-        - CVE-2016-5095
-        - CVE-2014-0236
-        - CVE-2016-5096
-        - CVE-2016-5093
+        - CVE-2016-1238
     status: 'inprogress'
     comment: |
-        Addressed with #24077
+        Being fixed via #24076, may have to whitelist later as the rc1 match might still trigger.
 -
-    name: php
-    version: '5.6.21'
+    name: perl
+    version: '5.24.2'
     cve:
-        - CVE-2016-6292
-        - CVE-2016-6295
-        - CVE-2016-5773
-        - CVE-2016-5095
-        - CVE-2016-5768
-        - CVE-2016-5769
-        - CVE-2016-5093
-        - CVE-2016-5096
-        - CVE-2016-5772
-        - CVE-2016-6291
-        - CVE-2016-6294
-        - CVE-2016-5770
-        - CVE-2016-6297
-        - CVE-2016-6290
-        - CVE-2016-6296
-        - CVE-2016-6289
-        - CVE-2016-5771
-        - CVE-2016-5094
+        - CVE-2017-12883
     status: 'inprogress'
     comment: |
-        Addressed with #24077
--
-    name: postgresql
-    version: '9.4.6'
-    cve:
-        - CVE-2016-5424
-        - CVE-2016-5423
-    status: 'inprogress'
-    comment: |
-        Addressed with Re #27058
--
-    name: postgresql
-    version: '9.4.12'
-    cve:
-        - CVE-2017-7486
-    status: 'inprogress'
-    comment: |
-        Addressed with Re #27463
--
-    name: postgresql
-    version: '9.5.1'
-    cve:
-        - CVE-2016-2193
-    status: 'inprogress'
-    comment: |
-        Addressed with #27035
--
-    name: postgresql
-    version: '9.6.1'
-    cve:
-        - CVE-2017-7484
-        - CVE-2017-7485
-        - CVE-2017-7484
-        - CVE-2017-7485
-    status: 'inprogress'
-    comment: |
-        Addressed with Re #27186
+        Addressed with Re #28610
 -
     name: python
     version: '2.7.11'
@@ -553,6 +566,15 @@
     comment: |
         Addressed with #24083
 -
+    name: rabbitmq
+    cve:
+        - CVE-2017-4965
+        - CVE-2017-4966
+        - CVE-2017-4967
+    status: 'inprogress'
+    comment: |
+        Addressed with Re #28725
+-
     name: redis
     version: '3.0.2'
     cve:
@@ -561,14 +583,28 @@
     comment: |
         Addressed with #24084
 -
-    name: rubygems
-    version: '2.4.1'
+    name: rsync
+    version: '3.1.2'
     cve:
-        - CVE-2015-3900
-        - CVE-2015-4020
+        - CVE-2017-15994
     status: 'inprogress'
     comment: |
-        Addressed with #26900
+        Addressed with #29124
+-
+    name: rsync
+    version: '3.1.3'
+    cve:
+        - CVE-2017-16548
+    comment: |
+        Fixed with 3.1.3+
+-
+    name: rubygems
+    version: '2.4.8'
+    cve:
+        - CVE-2017-0903
+    status: 'inprogress'
+    comment: |
+        Addressed with #29026
 -
     name: shadow
     version: '4.2.1'
@@ -587,6 +623,14 @@
     comment: |
         Addressed with #24095
 -
+    name: sqlite
+    version: '3.20.1'
+    cve:
+        - CVE-2017-15286
+    status: 'inprogress'
+    comment: |
+        Addressed with #29168
+-
     name: subversion
     version: '1.8.15'
     cve:
@@ -595,34 +639,27 @@
     comment: |
         We don't use Subversion in this way.
 -
-    name: unzip
-    version: '6.0'
+    name: subversion
+    version: '1.8.15'
     cve:
-        - CVE-2016-9844
+        - CVE-2016-8734
     status: 'inprogress'
     comment: |
-        Addressed via #26968
+       Addressed with #29025
 -
-    name: unzip
-    version: '6.0'
+    name: systemd
+    version: '234'
     cve:
-        - CVE-2014-8139
-        - CVE-2014-8140
-        - CVE-2014-8141
-        - CVE-2014-9636
-        - CVE-2015-7696
-        - CVE-2015-7697
+        - CVE-2017-15908
     comment: |
-        Patches applied without upstream minor release
+        Addressed with #29036. Not using systemd-resolved and updating is _very_ non-trivial. Will be updated with NixOS.
 -
-    name: zlib
-    version: '1.2.8'
+    name: w3m
+    version: '0.5.3'
     cve:
-        - CVE-2016-9840
-        - CVE-2016-9842
-        - CVE-2016-9840
-        - CVE-2016-9842
+        - CVE-2018-6197
+        - CVE-2018-6196
+        - CVE-2018-6198
     status: 'inprogress'
     comment: |
-        Addressed via Re #27182
-
+        Addressed with Case #100294
